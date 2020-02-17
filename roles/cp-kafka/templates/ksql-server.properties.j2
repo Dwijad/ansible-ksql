@@ -1,0 +1,22 @@
+listeners={{ listener_type }}://{{ listener_host_name }}:{{ listener_port }}
+ssl.keystore.location={{ ssl_keystore_location }}
+ssl.keystore.password={{ ssl_keystore_password }}
+ssl.key.password={{ ssl_key_password }}
+security.protocol={{ security_protocol }}
+ssl.truststore.location={{ ssl_truststore_location }}
+ssl.truststore.password={{ ssl_truststore_password }}
+ssl.client.auth={{ ssl_client_auth }}
+ssl.endpoint.identification.algorithm={{ ssl_endpoint_identification_algorithm }}
+
+ksql.logging.processing.topic.auto.create={{ ksql_logging_processing_topic_auto_create }}
+ksql.logging.processing.stream.auto.create={{ ksql_logging_processing_stream_auto_create }}
+
+
+bootstrap.servers={{ bootstrap_servers }}
+
+ksql.schema.registry.url={{ ksql_schema_registry_protocol }}://{{ ksql_schema_registry_url  }}:{{  ksql_schema_registry_port  }}
+ksql.schema.registry.ssl.truststore.location={{ ksql_schema_registry_ssl_truststore_location }}
+ksql.schema.registry.ssl.truststore.password={{ ksql_schema_registry_ssl_truststore_password }}
+ksql.schema.registry.ssl.keystore.location={{ ksql_schema_registry_ssl_keystore_location  }}
+ksql.schema.registry.ssl.keystore.password={{ ksql_schema_registry_ssl_keystore_password }}
+ksql.schema.registry.ssl.key.password={{ ksql_schema_registry_ssl_key_password  }}
